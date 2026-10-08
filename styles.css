@@ -1,0 +1,25 @@
+:root {
+  --blue: #1992d4;
+  --white: #ffffff;
+  --light-blue: #e2e8f0;
+  --yellow: #f0b429;
+  --main-text: #1f2937;
+  --sec-text: #64748b;
+  --border: #cbd5e1;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.profile {
+  width: 100%;
+  max-width: 70px;
+  border-radius: 50%;
+}
