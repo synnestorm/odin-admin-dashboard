@@ -5,6 +5,9 @@ This is the design file:
 
 ![The Design File](https://raw.githubusercontent.com/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
 
+Icons from FontAwesome
+Avatars from DiceBear
+
 ## Built with
 
 - HTML5
@@ -27,3 +30,9 @@ npm install
 ```
 
 ### Running
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
