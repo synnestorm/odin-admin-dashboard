@@ -136,10 +136,11 @@ h3 {
   padding-top: 30px;
 }
 
-.a-card {
+.a-card,
+.t-card {
   width: 100%;
   max-width: 300px;
-  height: 440px;
+  height: auto;
   background-color: var(--white);
   padding: 20px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
@@ -149,4 +150,16 @@ h3 {
 .line {
   border: 1px solid var(--border);
   width: 290px;
+}
+
+.trending img {
+  position: relative;
+  top: 7px;
+}
+
+.t-card > div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 20px;
+  align-items: center;
 }
