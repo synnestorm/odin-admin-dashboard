@@ -14,6 +14,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: var(--main-text);
+  background-color: var(--light-blue);
 }
 
 /* Header section */
@@ -41,7 +42,10 @@ input {
   border-radius: 20px;
 }
 
-/* Profile and Avatar imgs */
+span {
+  display: block;
+  font-size: 16px;
+}
 
 .avatar {
   width: 100%;
@@ -54,6 +58,8 @@ input {
   max-width: 70px;
   border-radius: 50%;
 }
+
+/* Sidebar section */
 
 h1 {
   color: var(--white);
@@ -94,4 +100,38 @@ a {
   max-width: 300px;
   height: auto;
   padding: 10px;
+}
+
+/* Main Section */
+
+h3,
+.fa-star,
+.fa-eye,
+.fa-code-fork {
+  color: var(--main-text);
+}
+
+h3 {
+  position: relative;
+  top: 15px;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 10px solid var(--yellow);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  color: var(--sec-text);
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
+  padding-top: 30px;
 }
