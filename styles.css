@@ -19,6 +19,17 @@ body {
 
 /* Header section */
 
+header {
+  background-color: var(--white);
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 fieldset {
   border: none;
   margin: 15px;
