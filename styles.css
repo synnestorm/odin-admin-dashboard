@@ -135,3 +135,18 @@ h3 {
   justify-content: end;
   padding-top: 30px;
 }
+
+.a-card {
+  width: 100%;
+  max-width: 300px;
+  height: 440px;
+  background-color: var(--white);
+  padding: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 10px;
+}
+
+.line {
+  border: 1px solid var(--border);
+  width: 290px;
+}
